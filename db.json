@@ -1,14 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "creation_time": "2018-04-04T11:30:23.706336-05:00",
+  "database_id": "test-client",
+  "id": "f61625c3-42a0-4eb3-8573-8467e56518e1",
+  "image_tag": "master",
+  "pipeline_id": 99,
+  "tasks": [
+    {
+      "active": false,
+      "creation_time": "2018-04-04T11:56:20.297254-05:00",
+      "kubernetes_job_id": "ae-luigi-worker-54ae2e0853f84ef5",
+      "name": "model-review",
+      "pipeline_run_id": "f61625c3-42a0-4eb3-8573-8467e56518e1",
+      "status": "succeeded"
+    },
+    {
+      "active": true,
+      "creation_time": "2018-04-04T11:36:43.226500-05:00",
+      "kubernetes_job_id": "ae-luigi-worker-34ba353722cb4e36",
+      "name": "data-review",
+      "pipeline_run_id": "f61625c3-42a0-4eb3-8573-8467e56518e1",
+      "status": "running"
+    }
+  ]
 }
